@@ -2,7 +2,7 @@ const { cmd, commands } = require('../command');
 const os = require('os');
 const moment = require('moment-timezone');
 
-const botLogo = "https://i.ibb.co/wZT5pgQx/543e99fd9674.jpg"
+const botLogo = "https://ibb.co/N6GDsdrS"
 
 const logoTypes = ["neon","neon2","fire2","glitch","hacker","futuristic","thunder","devil","fire","ice","snow","lava","metal","gold","silver","glossy","blackpink","transformer","horror","blood","joker","galaxy","space","cloud","sand","stone","magma","gradient","light","paper","watercolor","candy","christmas","luxury","leaf","summer","circuit","block3d","cartoon","chrome","frozen"];
 
@@ -12,7 +12,7 @@ cmd({
     alias: ["panel", "list", "commands"],
     desc: "Show main menu.",
     category: "main",
-    react: "🎀",
+    react: "🍿 ",
     filename: __filename
 },
 async (conn, mek, m, { from, pushname, prefix, reply }) => {
@@ -50,18 +50,20 @@ async (conn, mek, m, { from, pushname, prefix, reply }) => {
 │
 ╰───────────────⟡
 
-╭─── « 🎀 ᴄᴏᴍᴍᴀɴᴅ ᴘᴀɴᴇʟ 🎀» ───⟡
-│
-│ [ 𝟭 ] ᴍᴀɪɴ ᴍᴇɴᴜ 
-│ [ 𝟮 ] ᴏᴡɴᴇʀ ᴍᴇɴᴜ 
-│ [ 𝟯 ] ɢʀᴏᴜᴘ ᴍᴇɴᴜ 
-│ [ 𝟰 ] ʟᴏɢᴏ ᴍᴇɴᴜ 
-│ [ 𝟱 ] ᴅᴏᴡɴʟᴏᴀᴅꜱ 
-│ [ 𝟲 ] ꜱᴇᴀʀᴄʜ ᴍᴇɴᴜ 
-│ [ 𝟳 ] ᴀɪ ꜰᴇᴀᴛᴜʀᴇꜱ 
-│ [ 𝟴 ] ᴏᴛʜᴇʀ ᴛᴏᴏʟꜱ
-│
-╰───────────────⟡
+╭──🎀 COMMAND PANEL!!!
+
+ 🌈 : 1) Main Menu
+ 🌈 : 2 ) Owner Menu
+ 🌈 : 3 ) Group Menu
+ 🌈 : 4 ) Logo Menu
+🌈 : 5 ) Downloads Menu
+🌈 : 6 ) Search Menu
+🌈 : 7 ) Ai Features
+🌈 : 8 ) Other Tools 
+
+# Reply With a Number To Navigate 🥡
+🍿 By - @Podi Mako🎀!!
+🍥 Help - Dtz Gang 🤍!!
 
 > _𝑅𝑖𝑝𝑙𝑦 𝑊𝑖𝑡ℎ 𝑀𝑒𝑛𝑢 𝐶𝑜𝑚𝑚𝑎𝑛𝑑 🧸🤍!_`;
 
