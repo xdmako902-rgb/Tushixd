@@ -27,7 +27,7 @@ module.exports = {
     DELETEMSGSENDTO: "owner",
         
     NEWSLETTER_JID: "120363408157380722@g.us",
-    GROUP_INVITE_LINK: "https://whatsapp.com/channel/0029VbCz1MI7j6g21Ne0cB0E",
+    GROUP_INVITE_LINK: "https://whatsapp.com/channel/0029VbDOzZXDjiOfU38HYT23",
     MAX_RETRIES: 3,
     RCD_IMAGE_PATH: "https://files.catbox.moe/bttk8o.jpeg"
 };
