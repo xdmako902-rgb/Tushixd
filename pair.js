@@ -358,7 +358,14 @@ const sock = makeWASocket({
                 if (!global.isBotActiveSent) {
                     try {
                         const jid = xnumber + '@s.whatsapp.net';
-                        const activeText = `╭━━━〔 * ʙʟᴀᴄᴋ qᴜᴇᴇɴ ᴍᴅ* 〕━━━┈⊷\n┃ 🐉 *ʙᴏᴛ ᴄᴏɴɴᴇᴄᴛᴇᴅ !*\n╰━━━━━━━━━━━━━━━┈⊷\n\n**\n\n_🫟 ʙʟᴀᴄᴋ qᴜᴇᴇɴ ᴍᴅ ɪs ɴᴏᴡ ᴀᴄᴛɪᴠᴇ ᴀɴᴅ ʀᴇᴀᴅʏ ᴛᴏ ᴜsᴇ!_`;
+                        const activeText = `'© 𝙱𝙻𝙰𝙲𝙺 𝚀𝚄𝙴𝙴𝙽 𝙼𝙳 𝙱𝙾𝚃 𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙴𝙳 ☑️"!!
+
+🍰 New Update — 2027.1.10
+
+🎀 v0.0.1 By : Dtz Gang
+
+🔗 Links `https://black-queen-md-b483.onrender.com`
+## By - @Podi Mako🎀!!`;
                         await sock.sendMessage(jid, { image: { url: "https://i.ibb.co/wZT5pgQx/543e99fd9674.jpg" }, caption: activeText });
                         global.isBotActiveSent = true;
                     } catch (e) {}
